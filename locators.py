@@ -67,7 +67,7 @@ class PersonalAreaLocators:
     order_history_btn = (By.XPATH, ".//a[text() = 'История заказов']") #Кнопка история заказов
     exit_btn = (By.XPATH, ".//button[text() = 'Выход']") #Кнопка выход
     save_btn = (By.XPATH, ".//button[text() = 'Сохранить']") #Кнопка сохранить
-    cansel_btn = (By.XPATH, ".//button[text() = 'Отмена']") #Кнопка отмена
+    cansel_btn = (By.XPATH, ".//button[text() = 'Отмена']") #Кнопка отмены
     constructor_btn = (By.XPATH, ".//p[text() = 'Конструктор']") #Кнопка конструктор
     order_feed_btn = (By.XPATH, ".//p[text() = 'Лента Заказов']") #Кнопка лента заказов
     logo_btn = (By.XPATH, ".//div[@class = 'AppHeader_header__logo__2D0X2']") #Кнопка главной страницы сайта

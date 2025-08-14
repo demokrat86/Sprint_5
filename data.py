@@ -8,4 +8,4 @@ class Person:
 class RandomData:
     user_name = 'Тест'
     email = f'test{randint(0, 999)}@yandex.ru'
-    password = f'{randint(1000, 9999)}Qwe'
+    password = f'{randint(1000, 9999)}ZAG'
