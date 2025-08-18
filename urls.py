@@ -1,6 +1,8 @@
 class URLS:
-    MAIN_PAGE_URL = 'https://stellarburgers.nomoreparties.site/' #URL главной страницы
-    AUTH_PAGE_URL = 'https://stellarburgers.nomoreparties.site/login' #URL авторизации
-    REG_PAGE_URL = 'https://stellarburgers.nomoreparties.site/register' #URL регистрация
-    RECOVER_PAGE_URL = 'https://stellarburgers.nomoreparties.site/forgot-password' #URL восстановления пароля
-    PROFILE_PAGE_URL = 'https://stellarburgers.nomoreparties.site/account/profile' #URL личного кабинетa
+    BASE_URL = 'https://stellarburgers.nomoreparties.site'  # Базовый URL без слеша на конце
+
+    MAIN_PAGE_URL = BASE_URL + '/'                    # https://stellarburgers.nomoreparties.site/
+    AUTH_PAGE_URL = BASE_URL + '/login'               # https://stellarburgers.nomoreparties.site/login
+    REG_PAGE_URL = BASE_URL + '/register'             # https://stellarburgers.nomoreparties.site/register
+    RECOVER_PAGE_URL = BASE_URL + '/forgot-password'  # https://stellarburgers.nomoreparties.site/forgot-password
+    PROFILE_PAGE_URL = BASE_URL + '/account/profile'  # https://stellarburgers.nomoreparties.site/account/profile
